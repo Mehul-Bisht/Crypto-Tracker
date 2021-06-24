@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/assetsFragment">
+
+    <fragment
+        android:id="@+id/assetsFragment"
+        android:name="com.example.cryptotracker.features.assets.AssetsFragment"
+        android:label="fragment_assets"
+        tools:layout="@layout/fragment_assets" />
+    <fragment
+        android:id="@+id/exchangesFragment"
+        android:name="com.example.cryptotracker.features.exchanges.ExchangesFragment"
+        android:label="fragment_exchanges"
+        tools:layout="@layout/fragment_exchanges" />
+    <fragment
+        android:id="@+id/marketsFragment"
+        android:name="com.example.cryptotracker.features.markets.MarketsFragment"
+        android:label="fragment_markets"
+        tools:layout="@layout/fragment_markets" />
+</navigation>
